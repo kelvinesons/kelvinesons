@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Kelvine & Sons Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #1c3c5a;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #1c3c5a;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      animation: fadeDown 1s ease-in-out;
+    }
+    header img {
+      height: 60px;
+      max-width: 150px;
+    }
+    nav {
+      background-color: #e0e6ed;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+      animation: fadeUp 1s ease-in-out;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1c3c5a;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #5a9bd4;
+    }
+    section {
+      padding: 2rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .section-title {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2rem;
+      border-bottom: 2px solid #1c3c5a;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    footer {
+      background-color: #1c3c5a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; align-items: center; }
+    }
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo.png" alt="Kelvine & Sons Solutions Logo">
+    <h1>Kelvine & Sons Solutions</h1>
+    <p>Your trusted partner in Accountancy and Financial Advisory</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <section>
+    <h2 class="section-title">Who We Are</h2>
+    <p>Kelvine & Sons Solutions is a freelance accounting and advisory firm dedicated to helping individuals and businesses make smart financial decisions. We combine professional expertise with a personalized approach to deliver tailored services that align with your financial goals.</p>
+
+    <h2 class="section-title">Our Mission</h2>
+    <p>To simplify financial management for clients by providing transparent, accurate, and timely accounting and advisory services that drive long-term success.</p>
+
+    <h2 class="section-title">Our Vision</h2>
+    <p>To be the most trusted and innovative accounting partner, empowering growth through expert financial solutions.</p>
+
+    <h2 class="section-title">Our Core Values</h2>
+    <ul>
+      <li><strong>Integrity:</strong> We operate with honesty, transparency, and strong moral principles in all our engagements.</li>
+      <li><strong>Excellence:</strong> We deliver high-quality services and continually seek to improve our knowledge and skills.</li>
+      <li><strong>Client-Centered:</strong> Our services are designed with your needs and goals at the forefront.</li>
+      <li><strong>Confidentiality:</strong> We handle all client information with the highest level of security and discretion.</li>
+      <li><strong>Innovation:</strong> We embrace modern solutions and tools to provide efficient and effective financial support.</li>
+    </ul>
+  </section>
+  <footer>
+    &copy; 2025 Kelvine & Sons Solutions. All rights reserved.<br>
+    Contact us: <a href="mailto:kelvine.sons.solutions@gmail.com" style="color: #fff;">kelvine.sons.solutions@gmail.com</a> | Phone: +254 707 925 886
+  </footer>
+</body>
+</html>
